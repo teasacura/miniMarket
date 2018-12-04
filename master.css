@@ -1,0 +1,58 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: rgba(0, 180, 255, 0.1);
+}
+
+#myMarket {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+#myMarket div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  margin: 0.3em;
+  padding: 0.3em;
+  background-color: skyblue;
+}
+#myMarket div .inner-card {
+  background-color: white;
+}
+#myMarket div img {
+  padding: 10px;
+  height: 180px;
+}
+#myMarket div button {
+  background-color: green;
+  padding: 0.3em;
+  color: white;
+}
+#myMarket div h3 {
+  margin: 0 10px;
+}
+
+#nav-bar {
+  position: relative;
+  top: -7px;
+  background-color: white;
+  height: 5%;
+  width: 100%;
+  padding: 10px;
+}
+#nav-bar a {
+  color: blue;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+#nav-bar a:hover {
+  background-color: green;
+}
+
+/*# sourceMappingURL=master.css.map */
